@@ -18,6 +18,7 @@
 ④ 삭제 기능을 지원하여 개별 항목 제거 가능<br />
 
 3. Story 폴더(BookReview / Story / Story): 책에 대한 짧은 생각을 공유하는 공간<br />
+
     ① StoryItem.js<br />
       - 개별 책 스토리 항목을 표시하는 컴포넌트<br />
       - 책 제목 + 짧은 리뷰 + 삭제 버튼 포함<br />
@@ -41,6 +42,8 @@
      ① WritePost.js
        - 독서 기록을 새롭게 추가하는 페이지
        - 책 제목 + 긴 리뷰 입력 후 "저장" 버튼 클릭 시, localStorage에 저장 후 /BookReview로 이동
+
+   
 ###현재 폴더 구조
 BookReviewApp  <br />
 │── src  <br />
