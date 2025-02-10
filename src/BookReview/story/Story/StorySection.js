@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./StorySection.css";
 
-const StorySection = ({ reviews, addReview, deleteStory }) => { // ✅ deleteStory 추가
+const StorySection = ({ reviews, addReview, deleteStory }) => {
   const [bookTitle, setBookTitle] = useState("");
   const [shortReview, setShortReview] = useState("");
 
@@ -37,9 +37,14 @@ const StorySection = ({ reviews, addReview, deleteStory }) => { // ✅ deleteSto
           .filter((r) => r.type === "story")
           .map((story) => (
             <div key={story.id} className="story-item">
-              <strong>{story.book}</strong> - <span>{story.user}</span>: {story.text} 
-              <small>({story.time})</small>
-              <button className="delete-btn" onClick={() => deleteStory(story.id)}>삭제</button>
+              <div className="story-title">{story.book}</div> {/* ✅ 책 제목을 별도로 표시 */}
+              <div className="story-content">
+                <div className="story-text">
+                  <span>{story.user}</span>: {story.text} 
+                  <small className="story-time">({story.time})</small>
+                </div>
+                <button className="delete-btn" onClick={() => deleteStory(story.id)}>삭제</button>
+              </div>
             </div>
           ))}
       </div>
