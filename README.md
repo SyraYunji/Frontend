@@ -19,9 +19,10 @@
 
 3. Story 폴더(BookReview / Story / Story): 책에 대한 짧은 생각을 공유하는 공간<br />
 
-    ① StoryItem.js<br />
+① StoryItem.js<br />
       - 개별 책 스토리 항목을 표시하는 컴포넌트<br />
-      - 책 제목 + 짧은 리뷰 + 삭제 버튼 포함<br />② StorySection.js<br />
+      - 책 제목 + 짧은 리뷰 + 삭제 버튼 포함<br />
+② StorySection.js<br />
       - 사용자가 책 제목 + 짧은 리뷰를 입력할 수 있는 입력창 제공<br />
       - 입력 후 "공유" 버튼을 클릭하면 localStorage에 저장<br />
       - 스토리 목록을 불러와 화면에 표시<br />
