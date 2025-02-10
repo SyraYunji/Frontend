@@ -19,20 +19,3 @@ BookReviewApp  <br />
 │── public   <br />
 │── package.json  <br />
 │── README.md  <br />
-
-📚 BookReview App
-│── StorySection (스토리 입력 및 리스트)
-│   ├── 책 제목 + 짧은 생각 입력
-│   ├── 공유 버튼 클릭 시 localStorage 저장
-│   ├── 저장된 스토리 목록 표시
-│   ├── 삭제 버튼으로 특정 스토리 삭제
-│
-│── PostSection (독서 기록 관리)
-│   ├── "독서 기록 추가" 버튼 → WritePost 이동
-│   ├── 저장된 독서 기록 목록 카드 형태로 표시
-│   ├── 삭제 버튼으로 특정 기록 삭제
-│
-│── WritePost (긴 독서 기록 작성)
-│   ├── 책 제목 + 긴 리뷰 입력 후 저장
-│   ├── localStorage에 데이터 저장
-│   ├── 저장 후 PostSection으로 이동
