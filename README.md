@@ -3,7 +3,7 @@
 실행 경로 : `npm start`로 실행됨.
 
 ## Book Review 브랜치(윤지) - 0210
-###변경 사항
+### 변경 사항
 1. BookReview / Story 폴더 안에 'Pages'폴더, 'Story'폴더, 'Post' 폴더 만듦<br />
 
 2. BookReview.js<br />
@@ -38,13 +38,13 @@
         - 저장된 독서 기록을 PostItem을 이용하여 카드 형태로 표시
         - 삭제 버튼을 눌러 개별 독서 기록을 삭제 가능
 
-5. Pages 폴더(BookReview / Story / Pages): 독서 기록 추가 페이지
-     ① WritePost.js
-       - 독서 기록을 새롭게 추가하는 페이지
-       - 책 제목 + 긴 리뷰 입력 후 "저장" 버튼 클릭 시, localStorage에 저장 후 /BookReview로 이동
+5. Pages 폴더(BookReview / Story / Pages): 독서 기록 추가 페이지<br />
+     ① WritePost.js<br />
+        - 독서 기록을 새롭게 추가하는 페이지<br />
+        - 책 제목 + 긴 리뷰 입력 후 "저장" 버튼 클릭 시, localStorage에 저장 후 /BookReview로 이동<br />
 
    
-###현재 폴더 구조
+### 현재 폴더 구조
 BookReviewApp  <br />
 │── src  <br />
 │   ├── BookReview - Story          # 메인 폴더 <br />
