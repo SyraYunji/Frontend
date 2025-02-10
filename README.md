@@ -1,9 +1,9 @@
 **현재 폴더 구조(윤지) - 0210**
 
-BookReviewApp/
-│── src/
-│   ├── BookReview/          # 메인 폴더
-│   │   ├── story/           # 책 스토리 관련 컴포넌트
+BookReviewApp/ <br />
+│── src/<br />
+│   ├── BookReview/          # 메인 폴더 <br />
+│   │   ├── story/           # 책 스토리 관련 컴포넌트 <br />
 │   │   │   ├── StorySection.js  
 │   │   │   ├── StorySection.css
 │   │   ├── post/            # 독서 기록 관련 컴포넌트
