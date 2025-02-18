@@ -1,0 +1,72 @@
+/* 🌸 밝고 산뜻한 배경 */
+body {
+    background: #f9f9f9; /* 부드러운 밝은 회색 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* 로그인 박스 스타일 */
+  .login-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 제목 스타일 */
+  .login-container h2 {
+    color: #007bff; /* 파란색으로 강조 */
+    margin-bottom: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  /* 로그인 폼 스타일 */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* 입력 필드 스타일 */
+  .login-form input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+    background-color: #ffffff;
+  }
+  
+  .login-form input:focus {
+    border-color: #007bff; /* 포커스 시 파란색 강조 */
+    outline: none;
+  }
+  
+  /* 🔵 파란색 버튼 스타일 */
+  .login-form button {
+    padding: 12px;
+    background-color: #007bff; /* 기본 파란색 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* hover 시 더 진한 파란색 */
+    transform: scale(1.05);
+  }
+  

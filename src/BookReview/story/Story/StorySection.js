@@ -16,7 +16,15 @@ const StorySection = ({ reviews, addReview, deleteStory }) => {
   };
 
   const handleSubmit = () => {
-    if (bookTitle.trim() === "" || shortReview.trim() === "") return;
+    if (bookTitle.trim() === "") {
+      alert("⚠️ 책 제목을 입력해주세요!");
+      return;
+    }
+
+    if (shortReview.trim() === "") {
+      alert("⚠️ 짧은 생각을 입력해주세요!");
+      return;
+    }
 
     addReview("나", bookTitle, shortReview, "story");
 
