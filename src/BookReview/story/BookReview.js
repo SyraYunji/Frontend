@@ -45,7 +45,7 @@ const BookReview = () => {
   const deleteStory = (id) => {
     const updatedReviews = reviews.filter((review) => review.id !== id);
     setReviews(updatedReviews);
-    localStorage.setItem("reviews", JSON.stringify(updatedReviews)); // ✅ localStorage 업데이트
+    localStorage.setItem("reviews", JSON.stringify(updatedReviews)); // 
   };
 
   return (
@@ -55,7 +55,7 @@ const BookReview = () => {
         element={
           <div className="book-review">
             <h1>📚 나의 책 후기</h1>
-            <StorySection reviews={reviews} addReview={addReview} deleteStory={deleteStory} /> {/* ✅ addReview 추가 */}
+            <StorySection reviews={reviews} addReview={addReview} deleteStory={deleteStory} /> 
             <PostSection reviews={reviews} deleteReview={deleteReview} />
           </div>
         }
