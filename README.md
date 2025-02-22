@@ -72,7 +72,7 @@ BookReviewApp  <br />
 
 ## Book Review 브랜치(윤지) - 0218
 
-###변경사항
+### 변경사항
 1. BookReview 페이지 <br />
 - 짧은 생각 공유 글자수 제한(20자 못넘어가도록) <br />
 - 책 제목이나 생각 입력 안했을때 alert뜨도록 <br />
