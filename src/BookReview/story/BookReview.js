@@ -55,7 +55,7 @@ const BookReview = () => {
         element={
           <div className="book-review">
             <h1>📚 나의 책 후기</h1>
-            <StorySection reviews={reviews} addReview={addReview} deleteStory={deleteStory} /> 
+            <StorySection reviews={reviews} addReview={addReview} deleteStory={deleteStory} className = "story-grid"/> 
             <PostSection reviews={reviews} deleteReview={deleteReview} />
           </div>
         }

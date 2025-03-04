@@ -19,7 +19,8 @@
   
   .write-post h2::before {
     content: "📖";
-    font-size: 28px;
+    font-size: 30px;
+    margin-bottom: 8px;
   }
   
   .write-post input,

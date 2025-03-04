@@ -4,13 +4,13 @@ import "./StorySection.css";
 const StorySection = ({ reviews, addReview, deleteStory }) => {
   const [bookTitle, setBookTitle] = useState("");
   const [shortReview, setShortReview] = useState("");
-  const maxReviewLength = 20; // 글자 수 제한 (20자)
+  const maxReviewLength = 20; 
 
   const handleChange = (e) => {
     const value = e.target.value;
     if (value.length > maxReviewLength) {
       alert("⚠️ 글자 수가 초과되었습니다! (최대 20자)");
-      return; // 추가 입력을 막음
+      return; 
     }
     setShortReview(value);
   };
@@ -38,13 +38,13 @@ const StorySection = ({ reviews, addReview, deleteStory }) => {
       <div className="story-input">
         <input
           type="text"
-          placeholder="책 제목 입력..."
+          placeholder="책 제목을 알려주세요!"
           value={bookTitle}
           onChange={(e) => setBookTitle(e.target.value)}
         />
         <input
           type="text"
-          placeholder={`짧은 생각 입력... (최대 ${maxReviewLength}자)`}
+          placeholder={`당신의 생각을 공유해주세요!!`}
           value={shortReview}
           onChange={handleChange} // ✅ 글자 수 초과 시 alert 발생
         />
