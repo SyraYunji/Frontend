@@ -34,12 +34,7 @@
   .post-list {
     margin-top: 10px;
   }
-  .post-section {
-    padding: 15px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+
   
   .post-list {
     display: flex;
