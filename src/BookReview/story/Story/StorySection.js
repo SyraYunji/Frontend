@@ -4,13 +4,13 @@ import "./StorySection.css";
 const StorySection = ({ reviews, addReview, deleteStory }) => {
   const [bookTitle, setBookTitle] = useState("");
   const [shortReview, setShortReview] = useState("");
-  const maxReviewLength = 20; // 글자 수 제한 (20자)
+  const maxReviewLength = 20; 
 
   const handleChange = (e) => {
     const value = e.target.value;
     if (value.length > maxReviewLength) {
       alert("⚠️ 글자 수가 초과되었습니다! (최대 20자)");
-      return; // 추가 입력을 막음
+      return; 
     }
     setShortReview(value);
   };

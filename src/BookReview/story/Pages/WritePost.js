@@ -30,7 +30,7 @@ const WritePost = ({ addReview }) => {
       
     return (
       <div className="write-post">
-        <h2>📖 독서 기록 추가</h2>
+        <h2>독서 기록 추가</h2>
         <input
           type="text"
           placeholder="책 제목 입력"
