@@ -79,3 +79,9 @@ BookReviewApp  <br />
 2. 로그인 화면 구현 <br />
 - 로그인 성공했을때 홈화면으로 감 <br />
 - 로그인 성공했을때 브라우저가 로그인이라는 것을 감지해서 저장할까요? 팝업 띄우도록 <br />
+
+## Book Review 브랜치(윤지) - 0304
+
+###변경사항
+1. BookReview 페이지 <br />
+- css 수정(delete 버튼 위치 수정, story-section과 post-section 사이 공간 수정하며 css 수정)
