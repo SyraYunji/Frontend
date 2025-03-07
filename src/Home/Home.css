@@ -140,3 +140,12 @@
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+.clickable {
+    cursor: pointer;
+    color: #5B3E31; /* 갈색 */
+    transition: color 0.3s;
+}
+
+.clickable:hover {
+    color: #8B5A2B; /* 좀 더 진한 갈색 */
+}

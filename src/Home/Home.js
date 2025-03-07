@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // 추가
 import "./Home.css";
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate();
 
   const images = [
     "/rain.jpg",
@@ -39,7 +41,7 @@ const Home = () => {
 
       {/* 책 차트 섹션 */}
       <div className="book-chart">
-        <h2>Book Chart &gt;</h2>
+      <h2 onClick={() => navigate("/top100")} className="clickable">Book Chart &gt;</h2>
         <div className="book-list">
         <div>
           <img src = "/해리포터.jpg" alt = "해리포터 책" className = "harry"/>
