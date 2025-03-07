@@ -7,6 +7,7 @@ import PostSection from "./BookReview/story/Post/PostSection";
 import BookReview from "./BookReview/story/BookReview";
 import WritePost from "./BookReview/story/Pages/WritePost";
 import Login from "./Login/login";
+import Top100 from "./Top100/Top100";
 
 const App = () => {
   const [reviews, setReviews] = useState([
@@ -33,7 +34,8 @@ const App = () => {
     { path: "/post-section", element: <PostSection reviews={reviews} addReview={addReview} /> },
     { path: "/book-review", element: <BookReview reviews={reviews} addReview={addReview} /> }, // ✅ 상태 전달
     { path: "/write", element: <WritePost addReview={addReview} /> }, // ✅ 상태 전달
-    {path: "/login", element: <Login />},
+    { path: "/login", element: <Login /> },
+    { path: "/top100", element: <Top100 /> }
   ]);
 
   return <RouterProvider router={router} />;

@@ -16,14 +16,15 @@
     border-radius: 10px;
 }
 
+
 .carousel-content {
     position: relative;
 }
 
 .rain {
-    width: 100%;
-    max-width: 800px;
+    width: 530px;
     border-radius: 10px;
+    height: 300px;
 }
 
 /* 비 오는 날 읽기 좋은 책 - 텍스트 */
@@ -98,7 +99,8 @@
     background: white;
     padding: 15px;
     border-radius: 10px;
-    max-width: 400px;
+    width: 500px;
+    height: 300px;
     margin: 20px auto;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -107,7 +109,7 @@
     color: #5B3E31; /* 갈색 */
     font-size: 20px;
     font-weight: bold;
-    margin-right: 270px;
+    margin-right: 370px;
 }
 
 .book-list {
@@ -137,4 +139,13 @@
     height: 180px;
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.clickable {
+    cursor: pointer;
+    color: #5B3E31; /* 갈색 */
+    transition: color 0.3s;
+}
+
+.clickable:hover {
+    color: #8B5A2B; /* 좀 더 진한 갈색 */
 }
