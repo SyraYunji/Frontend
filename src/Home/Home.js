@@ -25,7 +25,7 @@ const Home = () => {
         <button className="arrow left" onClick={prevSlide}>&lt;</button>
         <img src="/rain.jpg" alt="비 오는 이미지" className = "rain" />
         <div className="overlay-text">비오는 날 읽기 좋은 책</div>
-        
+
         <button className="arrow right" onClick={nextSlide}>&gt;</button>
         <div className="carousel-dots">
           {images.map((_, index) => (
@@ -45,12 +45,12 @@ const Home = () => {
 
         <div>
           <img src = "/해리포터2.jpg" alt = "해리포터 책" className = "harry"/>
-          <div className="book-item">📘 해리포터</div>
+          <div className="book-item"> 해리포터</div>
         </div>
 
         <div>
           <img src = "/해리포터2.jpg" alt = "해리포터 책" className = "harry"/>
-          <div className="book-item">📘 해리포터</div>
+          <div className="book-item"> 해리포터</div>
         </div>
 
         </div>
