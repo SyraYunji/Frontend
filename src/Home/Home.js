@@ -8,7 +8,10 @@ const Home = () => {
     "/rain.jpg",
     "/rain2.jpg"
   ];
-  
+  const texts = [
+    "비오는 날 읽기 좋은 책",
+    "감성 충만한 우울한 날의 추천 도서"
+  ];
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -24,7 +27,7 @@ const Home = () => {
       <div className="carousel">
         <button className="arrow left" onClick={prevSlide}>&lt;</button>
         <img src={images[currentIndex]} alt="슬라이드" className="rain" />
-        <div className="overlay-text">비오는 날 읽기 좋은 책</div>
+        <div className="overlay-text">{texts[currentIndex]}</div> {/* 이미지에 맞는 텍스트 출력 */}
 
         <button className="arrow right" onClick={nextSlide}>&gt;</button>
         <div className="carousel-dots">
