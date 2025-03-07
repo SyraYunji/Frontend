@@ -16,14 +16,20 @@
     border-radius: 10px;
 }
 
+.carousel-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 .carousel-content {
     position: relative;
 }
 
 .rain {
-    width: 100%;
-    max-width: 800px;
+    width: 500px;
     border-radius: 10px;
+    height: 300px;
 }
 
 /* 비 오는 날 읽기 좋은 책 - 텍스트 */

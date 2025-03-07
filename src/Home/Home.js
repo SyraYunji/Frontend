@@ -5,10 +5,10 @@ const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "https://source.unsplash.com/400x600/?rain,street",
-    "https://source.unsplash.com/400x600/?city,traffic",
-    "https://source.unsplash.com/400x600/?urban,night",
+    "/rain.jpg",
+    "/rain2.jpg"
   ];
+  
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -23,7 +23,7 @@ const Home = () => {
       {/* 캐러셀 */}
       <div className="carousel">
         <button className="arrow left" onClick={prevSlide}>&lt;</button>
-        <img src="/rain.jpg" alt="비 오는 이미지" className = "rain" />
+        <img src={images[currentIndex]} alt="슬라이드" className="rain" />
         <div className="overlay-text">비오는 날 읽기 좋은 책</div>
 
         <button className="arrow right" onClick={nextSlide}>&gt;</button>
