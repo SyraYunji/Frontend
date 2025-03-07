@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./home";
+import Home from "./Home/Home";
 import StorySection from "./BookReview/story/Story/StorySection";
 import PostSection from "./BookReview/story/Post/PostSection";
 import BookReview from "./BookReview/story/BookReview";
