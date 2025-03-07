@@ -14,14 +14,14 @@ body {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 420px;
     text-align: center;
     transition: all 0.3s ease-in-out;
   }
   
   /* 제목 스타일 */
   .login-container h2 {
-    color: #007bff; /* 파란색으로 강조 */
+    color: #5B3E31; /* 파란색으로 강조 */
     margin-bottom: 20px;
     font-size: 24px;
     display: flex;
@@ -48,14 +48,14 @@ body {
   }
   
   .login-form input:focus {
-    border-color: #007bff; /* 포커스 시 파란색 강조 */
+    border-color: #5B3E31;; /* 포커스 시 파란색 강조 */
     outline: none;
   }
   
-  /* 🔵 파란색 버튼 스타일 */
-  .login-form button {
+
+  .login-form-btn {
     padding: 12px;
-    background-color: #007bff; /* 기본 파란색 */
+    background-color: #5B3E31;
     color: white;
     border: none;
     border-radius: 8px;
@@ -68,6 +68,16 @@ body {
     background-color: #0056b3; /* hover 시 더 진한 파란색 */
     transform: scale(1.05);
   }
+
+  .link-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+    .link-button {
+      background-color: none;
+    }
   
 
   @media (max-width: 768px) {

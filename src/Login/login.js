@@ -33,7 +33,12 @@ const Login = ({ onLogin }) => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">로그인</button>
+        <button className = "login-form-btn" type="submit">로그인</button>
+        <div className="link-container">
+            <button className="link-button">찾아보기</button>
+            <span>|</span>
+            <button className="link-button">비밀번호 찾기</button>
+          </div>
       </form>
     </div>
   );
